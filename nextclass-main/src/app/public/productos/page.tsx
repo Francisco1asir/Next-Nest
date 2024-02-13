@@ -1,3 +1,4 @@
+import Tabla1 from '@/components/commons/Tabla/Tabla1'
 import { IProducto } from '@/interfaces/IProductos'
 import { getLibros } from '@/model/libros/datalibro'
 import React from 'react'
@@ -22,6 +23,8 @@ async function Productospage() {
           </li>
         ))}
       </ul>
+      <hr />
+      {/* <Tabla1 /> */}
     </>
   )
 }

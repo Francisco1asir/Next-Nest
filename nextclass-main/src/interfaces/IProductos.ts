@@ -11,3 +11,32 @@ export interface IProducto {
     longDescription:  string;
     status:           string;
 }
+
+export interface IColumn {
+    key: string;
+    label: string;
+}
+
+const ColumLibro:IColumn[] = [
+    {
+        key: "isbn",
+        label: "ISBN",
+      },
+      {
+        key: "title",
+        label: "TITLE",
+      },
+      {
+        key: "page",
+        label: "PAGE",
+      },
+      {
+        key: "precio",
+        label: "PRECIO",
+      },
+      {
+        key: "thumbnailUrl",
+        label: "Imagen",
+      },
+]
+export default ColumLibro
